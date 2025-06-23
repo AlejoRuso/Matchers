@@ -1,6 +1,6 @@
 # Heroes Sorter
 
-![CI Status](https://github.com/ВАШ_ЮЗЕРНЕЙМ/heroes-sorter/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/AlejoRuso/Matchers/actions/workflows/ci.yml/badge.svg)
 
 Sorts game heroes by health in descending order.
 
