@@ -1,18 +1,26 @@
-# Health Indicator
+# Heroes Sorter
 
-![CI Status](https://github.com/AlejoRuso/Matchers/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/ВАШ_ЮЗЕРНЕЙМ/heroes-sorter/actions/workflows/ci.yml/badge.svg)
 
-
-## Usage
-```javascript
-import healthIndicator from './health.js';
-
-console.log(healthIndicator({name: 'Маг', health: 90})); // 'healthy'
-```
+Sorts game heroes by health in descending order.
 
 ## Installation
 ```bash
-npm install health-indicator
+npm install heroes-sorter
+```
+
+## Usage
+```javascript
+import sortHeroes from 'heroes-sorter';
+
+const heroes = [
+  {name: 'мечник', health: 10},
+  {name: 'маг', health: 100},
+  {name: 'лучник', health: 80},
+];
+
+const sorted = sortHeroes(heroes);
+
 ```
 
 ## Tests
